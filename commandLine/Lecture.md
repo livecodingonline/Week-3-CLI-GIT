@@ -38,3 +38,28 @@ The square brackets are not supposed to be typed.
 
 `touch` - create an empty file
 
+# vim
+vim is an editor (like notepad on windows)
+Sometimes it is a little hard to remember all the vim commands so here is a handy cheatsheet: https://www.fprintf.net/vimCheatSheet.html - with practice it will not seem so odd. 
+
+`vim <filename>` will open a file in vim
+When you are in vim there are two modes:
+1. Insert mode - in this mode you can enter and change text
+2. Command mode (also called escape mode) - in this mode you can issue commands to vim
+
+When you are in vim `a` and `i` will put you in insert mode and `esc` will take you our of insert mode. If you get stuck in vim press `esc esc` (yes, twice) and then `:q` and this will take you back to the shell. Some commands we covered: 
+
+`a` = Go to insert mode
+
+`<ESC> :q` = quit file 
+
+`<ESC> :wq` = save file and quit vim
+
+`<ESC> :q!` = exit vim without saving
+
+`<ESC> yy` = copy current line (the line you are on)
+
+`<ESC> p` = paste what you last copied
+
+Many commands can be preceeded by a number to repeat their action. For example, `<ESC> 4yy` copies 4 lines starting from where you entered the command. 
+
