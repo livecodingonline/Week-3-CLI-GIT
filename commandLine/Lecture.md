@@ -1,7 +1,7 @@
-# Week-3-CLI 
+# CLI  (Command language Interpreter)
 ##Command line
 The command line (cli, shell) is the interface between  user and the operating system which interprets the commands and allows the computer to respond to the command.
-# Commands
+
 
 ## General syntax
 `command_name param1 param2 [OPTIONS]`
