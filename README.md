@@ -1,6 +1,6 @@
 # Week-3-CLI-GIT
 ## Introduction
-This repository contains teaching metarials regarding Cli an Git control version.
+This repository contains teaching metarials regarding CLI an Git control version.
 ## Before starting
 -  **Windows Users**  please install  * [git bash] (https://git-scm.com/downloads )
 - **Mac Users** no need to do anything. just smile  :smile:
