@@ -1,5 +1,5 @@
 # CLI  (Command language Interpreter)
-##Command line
+## Command line
 The command line (cli, shell) is the interface between  user and the operating system which interprets the commands and allows the computer to respond to the command.
 
 
