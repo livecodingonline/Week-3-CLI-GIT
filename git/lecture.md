@@ -9,23 +9,23 @@ You can also try to clone any public repositories on github.com
 
 ## 1.2 add and commit
 ```
- #You can propose changes (add it to the Index) using
- $git add <filename>
- #This is the first step in the basic git workflow.
- 
- #To see changed and added files
- $git status
- 
- #To actually commit these changes use
- $git commit -m "Commit message"
+#You can propose changes (add it to the Index) using
+$git add <filename>
+#This is the first step in the basic git workflow.
+
+#To see changed and added files
+$git status
+
+#To actually commit these changes use
+$git commit -m "Commit message"
 ```
 
 ## 1.3 Pushing changes
 ```
 $git push
+```
 
-
-##2.1 Initializing repository locally 
+## 2.1 Initializing repository locally 
 
 The other way is initializing git repository locally. 
 ```
@@ -37,7 +37,7 @@ and create a new git repository using
 $git init
 ```
 
-##2.2 Configure your email and username of Github in the git
+## 2.2 Configure your email and username of Github in the git
 ```
 $git config --global user.email "username@email.com"
 $git config --global user.name "username"
@@ -45,15 +45,15 @@ $git config --global user.name "username"
 
 ## 2.3 add and commit (Same as 1.2)
 ```
- #You can propose changes (add it to the Index) using
- $git add <filename>
- #This is the first step in the basic git workflow.
- 
- #To see changed and added files
- $git status
- 
- #To actually commit these changes use
- $git commit -m "Commit message"
+#You can propose changes (add it to the Index) using
+$git add <filename>
+#This is the first step in the basic git workflow.
+
+#To see changed and added files
+$git status
+
+#To actually commit these changes use
+$git commit -m "Commit message"
 ```
 
 ##2.4 Pushing changes 
