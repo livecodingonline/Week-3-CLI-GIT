@@ -56,7 +56,7 @@ $git status
 $git commit -m "Commit message"
 ```
 
-##2.4 Pushing changes 
+## 2.4 Pushing changes 
 ```
 #If you have not cloned an existing repository and want to connect your repository to a remote server, you need to add it with
 
