@@ -16,7 +16,7 @@ The square brackets are not supposed to be typed.
 
 `cd` - change directory to the one specified. If no directory is specified this will take you to your home directory. Remember that `.` is the current directory and `..` is the parent directory. So `cd .` changes the directory to the current directory (does nothing!). 
 
-`echo` - prints the string on screen (on desktop/bash terminal). `echo -e "hello\n"` will interpret `\n` as newline.
+`echo` - prints the string on screen (on desktop/bash terminal). `echo -e "hello"` will interpret `\n` as newline. 
 
 `cat` - print the contents of the file - this will print the WHOLE file. If you want to pause printing after a full screen use the below command.
 
@@ -25,8 +25,6 @@ The square brackets are not supposed to be typed.
 `head` - show the beginning of a file e.g. `head -3` shows the first 3 lines of the file
 
 `tail` - show the end of a file `tail -4` shows the last 4 lines of the file
-
-`tail -f -100` - shows last 100 lines of a log file, while it's being updated. The output of the command will be automatically updated as well. This is the best way to watch logs.
 
 `wc` - show the word count of a file (prints number of lines, words and characters in the file)
 
@@ -65,17 +63,6 @@ $ sort < numbers.txt
 Will read the contents from the file "numbers.txt" and sort them. By default, sort will sort the lines alphabetically.
 
 `sort -n < numbers.txt` will sort the lines numerically.
-
-## Error Redirection
-
-```
-$ cat commands.sh
-cp src
-cd /some/path/that/does/not/exist
-ls
-$ sh commands.sh 2> errors.log
-```
-This will execute the `cp src` command and spits out the error that the destination is not specified. Then it executes the `cd` command and spits out the error that the path does not exist. Then it executes the command `ls` and prints out the contents of the directory. When we don't want errors on our screen (stdout), then we might want to redirect the errors to a file. In this case, the file is errors.log. The operator "2>" will redirect errors.
 
 
 ## Pipe
