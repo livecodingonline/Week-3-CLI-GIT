@@ -1,6 +1,6 @@
 # COMMANDLINE
 
 
-- [Lecture](https://github.com/livecodingonline/Week-3-CLI-GIT/blob/master/commandLine/Lecture.md)
+- [Lecture](https://github.com/livecodingonline/Week-3-CLI-GIT/blob/master/commandLine/Lecture)
 
-- [Homework](https://github.com/livecodingonline/Week-3-CLI-GIT/blob/master/commandLine/homework.md)
+- [Homework](https://github.com/livecodingonline/Week-3-CLI-GIT/blob/master/commandLine/Homework)
