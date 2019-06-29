@@ -16,7 +16,7 @@ The square brackets are not supposed to be typed.
 
 `cd` - change directory to the one specified. If no directory is specified this will take you to your home directory. Remember that `.` is the current directory and `..` is the parent directory. So `cd .` changes the directory to the current directory (does nothing!). 
 
-`echo` - prints the string on screen (on desktop/bash terminal). `echo -e "hello"` will interpret `\n` as newline. 
+`echo` - prints the string on screen (on desktop/bash terminal).
 
 `cat` - print the contents of the file - this will print the WHOLE file. If you want to pause printing after a full screen use the below command.
 
