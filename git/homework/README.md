@@ -22,3 +22,5 @@
 
 * **Do not merge the changes to master branch**.
 * **Do not make any changes to master branch**.
+
+*We have added this line on 3rd of July with 1st class
