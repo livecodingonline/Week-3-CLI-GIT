@@ -1,15 +1,15 @@
-# Git Homework 1: 
+# Git Assignment 1: 
 ## Make a new repository
 
 * Make your new repository with your own GitHub account.
 * Clone the repository.
-* Update the repository with the Bootstrap homework.
+* Update the repository with the Bootstrap assignment.
 
 
-# Git Homework 2:
+# Git Assignment 2:
 ## Git branching
 
-* Use the https://github.com/ekocibar/liveCodingGitHomework repository for this homework.
+* Use the https://github.com/ekocibar/liveCodingGitHomework repository for this assignment.
 * Clone the repository
 * Send me your `Github user name` so that I will give you _write_ access to the repository.
 * You will receive an email notification when I add you as a collaborator.
